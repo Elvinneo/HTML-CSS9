@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajax shop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="grid-container">
+        <div class="item1">
+            <div class="topnav">
+                <div class="sol">
+                    <h2>Free shipping over $100</h2>
+                </div>
+                <div class="sag">
+                    <ul>
+                        <li>FAQ</li>
+                        <li>SUPPORT</li>
+                        <li id="hov">USD</li>
+                    </ul>
+                    <div class="currency">
+                        <ul>
+                            <li class="currenc">AZN</li>
+                            <li class="currenc">EUR</li>
+                            <li class="currenc">GBP</li>
+                            <li class="currenc">CAD</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="navbar">
+                <div class="ikon">
+                    <img src="./media/u.JPG" alt="">
+                </div>
+                <div class="middle">
+                    <ul>
+                        <li id="demo" class="main_menu">Demos</li>
+                        <li id="feature" class="main_menu">Features</li>
+                        <li id="work" class="main_menu">Works</li>
+                        <li id="blog" class="main_menu">Blog</li>
+                        <li id="shop" class="main_menu">Shop</li>
+                        <li id="page" class="main_menu">Pages</li>
+                        <li id="e" class="main_menu">Extra</li>
+                    </ul>
+                </div>
+                <div class="icons">
+                    <ul class="icon">
+                        <i class="fa fa-search" area-hidden="true"></i>
+                        <i class="far fa-user" aria-hidden="true"></i>
+                        <i class="far fa-heart" aria-hidden="true"></i>
+                        <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+                    </ul>
+                    </ul>
+                </div>
+            </div>
+            <div class="dropdowns">
+                <div class="columns">
+                    <h3 class="heads">Classic</h3>
+                    <ul class="elements">
+                        <li class="element">Classic agency</li>
+                        <li class="element">Classic Photographer</li>
+                        <li class="element">Classic Saas</li>
+                        <li class="element">Classic Workshop</li>
+                        <li class="element">Classic Kindergarden</li>
+                        <li class="element">Classic App Lottie</li>
+                        <li class="element">Classic Hotel</li>
+                        <li class="element">Classic Trading</li>
+                        <li class="element">Classic Business</li>
+                        <li class="element">Classic Medical</li>
+                        <li class="element">Classic Studio</li>
+                        <li class="element">Classic Firm</li>
+                    </ul>
+                </div>
+                <div class="columns">
+                    <h3 class="heads">Creative</h3>
+                    <ul class="elements">
+                        <li class="element">Creative Agency</li>
+                        <li class="element">Creative Product</li>
+                        <li class="element">Creative Software</li>
+                        <li class="element">Creative Company</li>
+                        <li class="element">Creative Corporation</li>
+                        <li class="element">Creative Architect</li>
+                        <li class="element">Creative Photographer</li>
+                        <li class="element">Creative Persona</li>
+                        <li class="element">Creative Designers</li>
+                        <li class="element">Creative Studio</li>
+                        <li class="element">Creative Digital Agency</li>
+                        <li class="element">Creative Freelance</li>
+                    </ul>
+                </div>
+                <div class="columns">
+                    <h3 class="heads">Portfolio</h3>
+                    <ul class="elements">
+                        <li class="element">Portfolio Freelance</li>
+                        <li class="element">Portfolio Stuio</li>
+                        <li class="element">Portfolio Video Cover</li>
+                        <li class="element">Portfolio Tittles</li>
+                        <li class="element">Portfolio Agency</li>
+                        <li class="element">Portfolio Essential</li>
+                        <li class="element">Portfolio Video Shots</li>
+                        <li class="element">Portfolio Developer</li>
+                        <li class="element">Portfolio Designer</li>
+                        <li class="element">Portfolio Collective</li>
+                        <li class="element">Portfolio Minimal</li>
+                        <li class="element">Portfolio Classic</li>
+                    </ul>
+                </div>
+                <div class="columns">
+                    <h3 class="heads">Blog</h3>
+                    <ul class="elements">
+                        <li class="element">Blog Newspaper</li>
+                        <li class="element">Blog Magazine</li>
+                        <li class="element">Blog ajax</li>
+                        <li class="element">Blog Writer</li>
+                        <li class="element">Blog Masonry</li>
+                        <li class="element">Blog List</li>
+                        <li class="element">Blog Metro</li>
+                        <li class="element">Blog Travel</li>
+                        <li class="element">Blog Stories</li>
+                        <li class="element">Blog Review</li>
+                        <li class="element">Blog Creative</li>
+                        <li class="element">Blog Daily News</li>
+                    </ul>
+                </div>
+                <div class="columns">
+                    <h3 class="heads">Shop</h3>
+                    <ul class="elements">
+                        <li class="element">Shop Ajax</li>
+                        <li class="element">Shop Classic</li>
+                        <li class="element">Shop Boutigue</li>
+                        <li class="element">Shop Crafter</li>
+                        <li class="element">Shop Retail</li>
+                        <li class="element">Shop Product</li>
+                        <li class="element">Shop Streetwear</li>
+                        <li class="element">Shop Cosmetics</li>
+                        <li class="element">Shop Landing</li>
+                        <li class="element">Shop Beauty</li>
+                        <li class="element">Shop Outdoor</li>
+                        <li class="element">Shop Alternative</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="background">
+                <div class="content">
+                    <p>BACKPACK COLLECTION</p>
+                    <h1>Discover must-have special offers and promos</h1>
+                    <button>Discower Now</button>
+                </div>
+                <div class="quick_bar">
+                    <i id="opt" class="fa fa-cog">
+                        <div class="quick_slide" id="options">
+                            <h3>Quick Options</h3>
+                        </div>
+                    </i>
+                    <i id="chats" class='far fa-comment-alt'>
+                        <div class="quick_slide" id="chat">
+                            <h3>Presale Chat</h3>
+                        </div>
+                    </i>
+                    <i id="sho" class="far fa-heart">
+                        <div class="quick_slide" id="show">
+                            <h3>Showcase</h3>
+                        </div>
+                    </i>
+                    <i id="doc" class="fa fa-book">
+                        <div class="quick_slide" id="document">
+                            <h3>Documentation</h3>
+                        </div>
+                    </i>
+                    <i id="vid" class="fa fa-video">
+                        <div class="quick_slide" id="video">
+                            <h3>Video Tutorials</h3>
+                        </div>
+                    </i>
+                </div>
+
+                <div class="filter">
+                    <ul>
+                        <li>Sort by latest</li>
+                        <i class="fa-solid fa-caret-down"></i>
+                        <li>Hide filters</li>
+                        <img src="./media/slider.png" alt="">
+                    </ul>
+                </div>
+            </div>
+
+            <div class="item2">
+                <form action="">
+                    <div id="bir" class="category">
+                        <h4>Categories</h4>
+                        <hr><i class="fa-solid fa-chevron-down" id="asagi"></i>
+                        <i class="fa-solid fa-chevron-up" id="yuxari"></i>
+                        <ul>
+                            <li><input type="checkbox"> Accesories</li>
+                            <li><input type="checkbox"> Apparel</li>
+                            <li><input type="checkbox"> Bikes</li>
+                            <li><input type="checkbox"> Electronics</li>
+                            <li><input type="checkbox"> Furnitures</li>
+                        </ul>
+                    </div>
+                    <div id="iki" class="category">
+                        <h4>Color</h4>
+                        <hr><i class="fa-solid fa-chevron-down" id="asagi"></i>
+                        <i class="fa-solid fa-chevron-up" id="yuxari"></i>
+                        <ul>
+                            <li><input type="radio" class="hide" id="color1" name="color1"> Black</li>
+                            <li><input type="radio" class="hide" id="color2" name="color2"> Green</li>
+                            <li><input type="radio" class="hide" id="color3" name="color3"> Blue</li>
+                            <li><input type="radio" class="hide" id="color4" name="color4"> Yellow</li>
+                            <li><input type="radio" class="hide" id="color5" name="color5"> Orange</li>
+                            <li><input type="radio" class="hide" id="color6" name="color6"> Gray</li>
+                            <label for="color1" class="dots_" id="c1"></label>
+                            <label for="color2" class="dots_" id="c2"></label>
+                            <label for="color3" class="dots_" id="c3"></label>
+                            <label for="color4" class="dots_" id="c4"></label>
+                            <label for="color5" class="dots_" id="c5"></label>
+                            <label for="color6" class="dots_" id="c6"></label>
+                        </ul>
+                    </div>
+                    <div id="uc" class="category">
+                        <h4>Brand</h4>
+                        <hr><i class="fa-solid fa-chevron-down" id="asagi"></i>
+                        <i class="fa-solid fa-chevron-up" id="yuxari"></i>
+                        <ul>
+                            <li><img class="brands" img
+                                    src="https://undsgn.com/uncode/wp-content/uploads/2019/08/logo-american-apparel-min.png"
+                                    alt=""></li>
+                            <li><img class="brands" img
+                                    src="https://d3f86pfw66amx.cloudfront.net/uncode/wp-content/uploads/2015/05/logo-apple.png"
+                                    alt=""></li>
+                            <li><img class="brands" img
+                                    src="https://d3f86pfw66amx.cloudfront.net/uncode/wp-content/uploads/2022/07/logo-vitra-350x158.png"
+                                    alt=""></li>
+                            <li><img class="brands" img
+                                    src="https://undsgn.com/uncode/wp-content/uploads/2022/07/logo-santacruz-350x158.png"
+                                    alt=""></li>
+                            <li><img class="brands" img
+                                    src="https://d3f86pfw66amx.cloudfront.net/uncode/wp-content/uploads/2022/07/logo-fujifilm-350x158.png"
+                                    alt=""></li>
+                            <li><img class="brands" img
+                                    src="https://d3f86pfw66amx.cloudfront.net/uncode/wp-content/uploads/2022/07/logo-rayban-350x158.png"
+                                    alt=""></li>
+                            <li><img class="brands" img
+                                    src="https://d3f86pfw66amx.cloudfront.net/uncode/wp-content/uploads/2022/07/logo-alessi-350x158.png"
+                                    alt=""></li>
+                            <li><img class="brands" img
+                                    src="https://d3f86pfw66amx.cloudfront.net/uncode/wp-content/uploads/2022/07/logo-sony-350x158.png"
+                                    alt=""></li>
+                        </ul>
+                    </div>
+                    <div id="dord" class="category">
+                        <h4>Rating</h4>
+                        <hr>
+                        <i class="fa-solid fa-chevron-down" id="asagi"></i>
+                        <i class="fa-solid fa-chevron-up" id="yuxari"></i>
+                        <ul>
+                            <li>
+                                <li><img class="ulduz" src="./media/dolu.JPG" alt=""></i></li>
+                                <li><img class="ulduz" src="./media/dolu.JPG" alt=""></i></li>
+                                <li><img class="ulduz" src="./media/dolu.JPG" alt=""></i></li>
+                                <li><img class="ulduz" src="./media/dolu.JPG" alt=""></i></li>
+                                <li><img class="ulduz" src="./media/dolu.JPG" alt=""></i></li>
+                            </li>
+                            <li>
+                                <li><img class="ulduz" src="./media/dolu.JPG" alt=""></i></li>
+                                <li><img class="ulduz" src="./media/dolu.JPG" alt=""></i></li>
+                                <li><img class="ulduz" src="./media/dolu.JPG" alt=""></i></li>
+                                <li><img class="ulduz" src="./media/dolu.JPG" alt=""></i></li>
+                                <li><img class="ulduz" src="./media/bos.JPG" alt=""></i></li>
+                            </li>
+                            <li>
+                                <li><img class="ulduz" src="./media/dolu.JPG" alt=""></i></li>
+                                <li><img class="ulduz" src="./media/dolu.JPG" alt=""></i></li>
+                                <li><img class="ulduz" src="./media/dolu.JPG" alt=""></i></li>
+                                <li><img class="ulduz" src="./media/bos.JPG" alt=""></i></li>
+                                <li><img class="ulduz" src="./media/bos.JPG" alt=""></i></li>
+
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="bes" class="category">
+                        <h4>Status</h4>
+                        <hr><i class="fa-solid fa-chevron-down" id="asagi"></i>
+                        <i class="fa-solid fa-chevron-up" id="yuxari"></i>
+                        <ul>
+                            <li><input type="checkbox"> On Sale</li>
+                            <li><input type="checkbox"> In Stock</li>
+                        </ul>
+                    </div>
+                    <div id="alti" class="category">
+                        <h4>Price</h4>
+                        <hr><i class="fa-solid fa-chevron-down" id="asagi"></i>
+                        <i class="fa-solid fa-chevron-up" id="yuxari"></i>
+                        <ul>
+                            <li><input type="checkbox"> Under $25</li>
+                            <li><input type="checkbox"> $25-$100</li>
+                            <li><input type="checkbox"> $100-$500</li>
+                            <li><input type="checkbox"> $500-$1.000</li>
+                            <li><input type="checkbox"> Over $1.000</li>
+                        </ul>
+                    </div>
+                </form>
+            </div>
+            <div class="item3">
+                <div class="kart">
+                    <div class="foto">
+                        <input class="hide" type="radio" id="i1" name="image1" checked />
+                        <input class="hide" type="radio" id="i2" name="image1" />
+                        <input class="hide" type="radio" id="i3" name="image1" />
+                        <div class="slide_img" id="a">
+                            <img src="./media/Stealth-Backpack_red.jpg" alt="">
+                        </div>
+                        <div class="slide_img" id="b">
+                            <img src="./media/Stealth-Backpack_orange.jpg" alt="">
+                        </div>
+                        <div class="slide_img" id="c">
+                            <img src="./media/Stealth-Backpack_black.jpg" alt="">
+                        </div>
+                        <div class="magn">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <i class="far fa-heart" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <div class="melumat">
+                        <h3>Backpacks,Apparel</h3>
+                        <h2>Everyday Backpack</h2>
+                        <p>$125</p>
+                        <hr>
+                        <img src="https://undsgn.com/uncode/wp-content/uploads/2019/08/logo-american-apparel-min.png"
+                            alt="">
+                    </div>
+                    <div id="nav_slide">
+                        <label for="i1" class="dots" id="k1"></label>
+                        <label for="i2" class="dots" id="k2"></label>
+                        <label for="i3" class="dots" id="k3"></label>
+                    </div>
+                </div>
+                <div class="kart">
+                    <div class="foto">
+                        <input class="hide" type="radio" id="i4" name="image2" checked />
+                        <input class="hide" type="radio" id="i5" name="image2" />
+                        <input class="hide" type="radio" id="i6" name="image2" />
+                        <div class="slide_img" id="d">
+                            <img src="./media/airpods_mustard.jpg" alt="">
+                        </div>
+                        <div class="slide_img" id="e">
+                            <img src="./media/airpods_blue.jpg" alt="">
+                        </div>
+                        <div class="slide_img" id="f">
+                            <img src="./media/airpods_black.jpg" alt="">
+                        </div>
+                        <div class="magn">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <i class="far fa-heart" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <div class="melumat">
+                        <h3>Electronics</h3>
+                        <h2>BigStar AirPods Case</h2>
+                        <br>
+                        <p>$25</p>
+                        <hr>
+                        <img src="https://d3f86pfw66amx.cloudfront.net/uncode/wp-content/uploads/2015/05/logo-apple.png"
+                            alt="">
+                    </div>
+                    <div id="nav_slide">
+                        <label for="i4" class="dots" id="k4"></label>
+                        <label for="i5" class="dots" id="k5"></label>
+                        <label for="i6" class="dots" id="k6"></label>
+                    </div>
+                </div>
+                <div class="kart">
+                    <div class="foto">
+                        <input class="hide" type="radio" id="i7" name="image3" checked />
+                        <input class="hide" type="radio" id="i8" name="image3" />
+                        <input class="hide" type="radio" id="i9" name="image3" />
+                        <div class="slide_img" id="g">
+                            <img src="./media/Bicycle_blue.jpg" alt="">
+                        </div>
+                        <div class="slide_img" id="h">
+                            <img src="./media/bicycle_orange.jpg" alt="">
+                        </div>
+                        <div class="slide_img" id="i">
+                            <img src="./media/bicycle_white.jpg" alt="">
+                        </div>
+                        <div class="magn">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <i class="far fa-heart" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <div class="melumat">
+                        <h3>Bikes</h3>
+                        <h2>Integra Trident</h2>
+                        <p>$950</p>
+                        <hr>
+                        <br>
+                        <img src="https://undsgn.com/uncode/wp-content/uploads/2022/07/logo-santacruz-350x158.png"
+                            alt="">
+                    </div>
+                    <div id="nav_slide">
+                        <label for="i7" class="dots" id="k7"></label>
+                        <label for="i8" class="dots" id="k8"></label>
+                        <label for="i9" class="dots" id="k9"></label>
+                    </div>
+                </div>
+                <div class="kart">
+                    <div class="foto">
+                        <input class="hide" type="radio" id="i10" name="image4" checked />
+                        <input class="hide" type="radio" id="i11" name="image4" />
+                        <input class="hide" type="radio" id="i12" name="image4" />
+                        <div class="slide_img" id="j">
+                            <img src="./media/chair_red.jpg" alt="">
+                        </div>
+                        <div class="slide_img" id="k">
+                            <img src="./media/chair_white.jpg" alt="">
+                        </div>
+                        <div class="slide_img" id="l">
+                            <img src="./media/chair_black.jpg" alt="">
+                        </div>
+                        <div class="magn">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <i class="far fa-heart" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <div class="melumat">
+                        <h3>Furniture</h3>
+                        <h2>Lloyd Wright Chair</h2>
+                        <br>
+                        <p>$650</p>
+                        <hr>
+                        <br>
+                        <img src="https://d3f86pfw66amx.cloudfront.net/uncode/wp-content/uploads/2022/07/logo-vitra-350x158.png"
+                            alt="">
+                    </div>
+                    <div id="nav_slide">
+                        <label for="i10" class="dots" id="k10"></label>
+                        <label for="i11" class="dots" id="k11"></label>
+                        <label for="i12" class="dots" id="k12"></label>
+                    </div>
+                </div>
+                <div class="kart">
+                    <div class="foto">
+                        <input class="hide" type="radio" id="i13" name="image5" checked />
+                        <input class="hide" type="radio" id="i14" name="image5" />
+                        <div class="slide_img" id="m">
+                            <img src="./media/fotoaparat_gray.jpg" alt="">
+                        </div>
+                        <div class="slide_img" id="n">
+                            <img src="./media/fotoaparat_black.jpg" alt="">
+                        </div>
+                        <div class="magn">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <i class="far fa-heart" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <div class="melumat">
+                        <h3>Electronics,Photography</h3>
+                        <h2>Spectrum X-200T</h2>
+                        <p>$1,400</p>
+                        <hr>
+                        <br>
+                        <img src="https://d3f86pfw66amx.cloudfront.net/uncode/wp-content/uploads/2022/07/logo-fujifilm-350x158.png"
+                            alt="">
+                    </div>
+                    <div id="nav_slide">
+                        <label for="i13" class="dots" id="k13"></label>
+                        <label for="i14" class="dots" id="k14"></label>
+                    </div>
+                </div>
+                <div class="kart">
+                    <div class="foto">
+                        <input class="hide" type="radio" id="i16" name="image6" checked />
+                        <input class="hide" type="radio" id="i17" name="image6" />
+                        <input class="hide" type="radio" id="i18" name="image6" />
+                        <div class="slide_img" id="p">
+                            <img src="./media/furniture_gray.jpg" alt="">
+                        </div>
+                        <div class="slide_img" id="q">
+                            <img src="./media/furniture_mustard.jpg" alt="">
+                        </div>
+                        <div class="slide_img" id="r">
+                            <img src="./media/furniture_white.jpg" alt="">
+                        </div>
+                        <div class="magn">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <i class="far fa-heart" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <div class="melumat">
+                        <h3>Furniture</h3>
+                        <h2>Wanders Sofa</h2>
+                        <p>$2,450</p>
+                        <hr>
+                        <br>
+                        <img src="https://d3f86pfw66amx.cloudfront.net/uncode/wp-content/uploads/2022/07/logo-vitra-350x158.png"
+                            alt="">
+                    </div>
+                    <div id="nav_slide">
+                        <label for="i16" class="dots" id="k16"></label>
+                        <label for="i17" class="dots" id="k17"></label>
+                        <label for="i18" class="dots" id="k18"></label>
+                    </div>
+                </div>
+                <div class="kart">
+                    <div class="foto">
+                        <input class="hide" type="radio" id="i19" name="image7" checked />
+                        <input class="hide" type="radio" id="i20" name="image7" />
+                        <input class="hide" type="radio" id="i21" name="image7" />
+                        <div class="slide_img" id="s">
+                            <img src="./media/glasses_black.jpg" alt="">
+                        </div>
+                        <div class="slide_img" id="t">
+                            <img src="./media/glasses_green.jpg" alt="">
+                        </div>
+                        <div class="slide_img" id="u">
+                            <img src="./media/glasses_yellow.jpg" alt="">
+                        </div>
+                        <div class="magn">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <i class="far fa-heart" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <div class="melumat">
+                        <h3>Apparel,Sunglass</h3>
+                        <h2>Wildcat New</h2>
+                        <p id="line_th">$180</p>
+                        <p>$130</p>
+                        <hr>
+                        <br>
+                        <img src="https://d3f86pfw66amx.cloudfront.net/uncode/wp-content/uploads/2022/07/logo-rayban-350x158.png"
+                            alt="">
+                    </div>
+                    <div id="nav_slide">
+                        <label for="i19" class="dots" id="k19"></label>
+                        <label for="i20" class="dots" id="k20"></label>
+                        <label for="i21" class="dots" id="k21"></label>
+                    </div>
+                </div>
+                <div class="kart">
+                    <div class="foto">
+                        <input class="hide" type="radio" id="i22" name="image8" checked />
+                        <input class="hide" type="radio" id="i23" name="image8" />
+                        <input class="hide" type="radio" id="i24" name="image8" />
+                        <div class="slide_img" id="v">
+                            <img src="./media/blue.jpg" alt="">
+                        </div>
+                        <div class="slide_img" id="w">
+                            <img src="./media/green.jpg" alt="">
+                        </div>
+                        <div class="slide_img" id="x">
+                            <img src="./media/red.jpg" alt="">
+                        </div>
+                        <div class="magn">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <i class="far fa-heart" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <div class="melumat">
+                        <h3>Accessories</h3>
+                        <h2>Coastal Paleo Mug</h2>
+                        <p>$35</p>
+                        <hr>
+                        <br>
+                        <img src="https://d3f86pfw66amx.cloudfront.net/uncode/wp-content/uploads/2022/07/logo-alessi-350x158.png"
+                            alt="">
+                    </div>
+                    <div id="nav_slide">
+                        <label for="i22" class="dots" id="k22"></label>
+                        <label for="i23" class="dots" id="k23"></label>
+                        <label for="i24" class="dots" id="k24"></label>
+                    </div>
+                </div>
+                <div class="kart">
+                    <div class="foto">
+                        <input class="hide" type="radio" id="i25" name="image9" checked />
+                        <input class="hide" type="radio" id="i26" name="image9" />
+                        <input class="hide" type="radio" id="i27" name="image9" />
+                        <div class="slide_img" id="y">
+                            <img src="./media/headset_white.jpg" alt="">
+                        </div>
+                        <div class="slide_img" id="z">
+                            <img src="./media/headset_blue.jpg" alt="">
+                        </div>
+                        <div class="slide_img" id="aa">
+                            <img src="./media/headset_black.jpg" alt="">
+                        </div>
+                        <div class="magn">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <i class="far fa-heart" aria-hidden="true"></i>
+                        </div>
+
+                    </div>
+                    <div class="melumat">
+                        <h3>Electronics,Audio</h3>
+                        <h2>Compass Headphones</h2>
+                        <p> $120</p>
+                        <hr>
+                        <br>
+                        <img src="https://d3f86pfw66amx.cloudfront.net/uncode/wp-content/uploads/2022/07/logo-sony-350x158.png"
+                            alt="">
+                    </div>
+                    <div id="nav_slide">
+                        <label for="i25" class="dots" id="k25"></label>
+                        <label for="i26" class="dots" id="k26"></label>
+                        <label for="i27" class="dots" id="k27"></label>
+                    </div>
+                </div>
+                <div class="kart">
+                    <div class="foto">
+                        <input class="hide" type="radio" id="i28" name="image10" checked />
+                        <input class="hide" type="radio" id="i29" name="image10" />
+                        <div class="slide_img" id="ab">
+                            <img src="./media/kettle_white.jpg" alt="">
+                        </div>
+                        <div class="slide_img" id="ac">
+                            <img src="./media/kettle_black.jpg" alt="">
+                        </div>
+
+                        <div class="magn">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <i class="far fa-heart" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <div class="melumat">
+                        <h3>Furniture</h3>
+                        <h2>Galaxy Club Kettle</h2>
+                        <p>$120</p>
+                        <hr>
+                        <br>
+                        <img src="https://d3f86pfw66amx.cloudfront.net/uncode/wp-content/uploads/2022/07/logo-alessi-350x158.png"
+                            alt="">
+                    </div>
+                    <div id="nav_slide">
+                        <label for="i28" class="dots" id="k28"></label>
+                        <label for="i29" class="dots" id="k29"></label>
+                    </div>
+                </div>
+                <div class="kart">
+                    <div class="foto">
+                        <input class="hide" type="radio" id="i31" name="image11" checked />
+                        <input class="hide" type="radio" id="i32" name="image11" />
+                        <input class="hide" type="radio" id="i33" name="image11" />
+                        <div class="slide_img" id="ae">
+                            <img src="./media/mont_blue.jpg" alt="">
+                        </div>
+                        <div class="slide_img" id="af">
+                            <img src="./media/mont_mustard.jpg" alt="">
+                        </div>
+                        <div class="slide_img" id="ag">
+                            <img src="./media/mont_red.jpg" alt="">
+                        </div>
+                        <div class="magn">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <i class="far fa-heart" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <div class="melumat">
+                        <h3>Apparel</h3>
+                        <h2>Expedition Tech</h2>
+                        <p>$285</p>
+                        <hr>
+                        <br>
+                        <img src="https://undsgn.com/uncode/wp-content/uploads/2019/08/logo-american-apparel-min.png"
+                            alt="">
+                    </div>
+                    <div id="nav_slide">
+                        <label for="i31" class="dots" id="k31"></label>
+                        <label for="i32" class="dots" id="k32"></label>
+                        <label for="i33" class="dots" id="k33"></label>
+                    </div>
+                </div>
+                <div class="kart">
+                    <div class="foto">
+                        <input class="hide" type="radio" id="i34" name="image12" checked />
+                        <input class="hide" type="radio" id="i35" name="image12" />
+                        <input class="hide" type="radio" id="i36" name="image12" />
+                        <div class="slide_img" id="ah">
+                            <img src="./media/Raven_black.jpg" alt="">
+                        </div>
+                        <div class="slide_img" id="ai">
+                            <img src="./media/Raven_blue.jpg" alt="">
+                        </div>
+                        <div class="slide_img" id="aj">
+                            <img src="./media/Raven_gray.jpg" alt="">
+                        </div>
+                        <div class="magn">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <i class="far fa-heart" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <div class="melumat">
+                        <h3>Apparel,Shoes</h3>
+                        <h2>Traverse Winner</h2>
+                        <p>$175</p>
+                        <hr>
+                        <br>
+                        <img src="https://undsgn.com/uncode/wp-content/uploads/2022/07/logo-supreme-350x158.png" alt="">
+                    </div>
+                    <div id="nav_slide">
+                        <label for="i34" class="dots" id="k34"></label>
+                        <label for="i35" class="dots" id="k35"></label>
+                        <label for="i36" class="dots" id="k36"></label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item4">
+                <div class="form">
+                    <h2>NEWSLETTER — SIGN UP</h2>
+                    <p>Be the first to know about special offers, new product launches, and events.</p>
+                    <form action="">
+                        <input id="mail" type="email" placeholder="Youre Email" required>
+                        <input id="button" type="submit" value="Subscribe">
+                    </form>
+                </div>
+                <div class="shop">
+                    <h2 class="basliq">SHOP</h2>
+                    <ul class="list">
+                        <li class="shopping">Shop All</li>
+                        <li class="shopping">Woman Collection</li>
+                        <li class="shopping">Man Collection</li>
+                        <li class="shopping">Accesories</li>
+                        <li class="shopping">New Arrivals</li>
+                        <li class="shopping">Latest Collection</li>
+                        <li class="shopping">Gift Card</li>
+                        <li class="shopping">Top Sellers</li>
+                    </ul>
+                </div>
+                <div class="customers">
+                    <h2 class="basliq">CUSTOMERS</h2>
+                    <ul class="list">
+                        <li class="customer">FAQS</li>
+                        <li class="customer">Shipping</li>
+                        <li class="customer">Returns</li>
+                        <li class="customer">Terms</li>
+                        <li class="customer">Contact Us</li>
+                        <li class="customer">Privacy</li>
+                    </ul>
+                </div>
+                <div class="contacts">
+                    <h2 class="basliq">Contact Us</h2>
+                    <ul class="list">
+                        <li class="contact">elvinbagirov@windowslive.com</li>
+                        <li class="contact">+994 50 304 77 55</li>
+                        <li class="contact">+994 60 304 77 55</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer_bar">
+                <div class="date">
+                    <h3>© 2024 Uncode. All rights reserved</h3>
+                </div>
+                <div class="ikon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fa-solid fa-xmark"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-houzz"></i>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>
